@@ -6,6 +6,17 @@ import { TasksComponent } from './tasks/tasks.component';
 import {HttpClientModule} from "@angular/common/http";
 import {FormsModule} from "@angular/forms";
 import { ArchiveComponent } from './archive/archive.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatDatepickerModule} from "@angular/material/datepicker";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatCardModule} from "@angular/material/card";
+import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatButtonModule} from "@angular/material/button";
+import {MatIconModule} from "@angular/material/icon";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatInputModule} from "@angular/material/input";
+import {MatNativeDateModule} from "@angular/material/core";
+import {MatChipsModule} from "@angular/material/chips";
 
 @NgModule({
   declarations: [
@@ -13,14 +24,24 @@ import { ArchiveComponent } from './archive/archive.component';
     TasksComponent,
     ArchiveComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FormsModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule,
+        BrowserAnimationsModule,
+        MatDatepickerModule,
+        MatFormFieldModule,
+        MatCardModule,
+        MatCheckboxModule,
+        MatButtonModule,
+        MatIconModule,
+        MatToolbarModule,
+        MatInputModule,
+        MatNativeDateModule,
+        MatChipsModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
-
 export class AppModule { }

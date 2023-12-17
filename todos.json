@@ -1,39 +1,25 @@
 {
   "todos": [
     {
-      "title": "NowyTask1",
-      "deadline": "2023-12-22",
+      "id": 1,
+      "title": "Hello World",
+      "deadline": "1900-01-01",
       "completed": false,
-      "archived": false,
-      "id": 8
+      "archived": false
     },
     {
-      "title": "NowyTask2",
-      "deadline": "2024-03-14",
-      "completed": false,
-      "archived": false,
-      "id": 9
+      "id": 2,
+      "title": "Hello Again World",
+      "deadline": "2000-01-01",
+      "completed": true,
+      "archived": false
     },
     {
-      "title": "NowyTask3",
-      "deadline": "2023-09-14",
-      "completed": false,
-      "archived": false,
-      "id": 10
-    },
-    {
-      "title": "NowyTask4",
-      "deadline": "2023-12-14",
-      "completed": false,
-      "archived": false,
-      "id": 11
-    },
-    {
-      "title": "NowyTask5",
-      "deadline": "2023-12-20",
-      "completed": false,
-      "archived": false,
-      "id": 12
+      "id": 3,
+      "title": "Hello Again World World!",
+      "deadline": "1999-02-03",
+      "completed": true,
+      "archived": true
     }
   ]
 }

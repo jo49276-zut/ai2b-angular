@@ -1,12 +1,14 @@
-<header>
-  <h1>Backend-Based Task Manager</h1>
-  <nav>
-    <a routerLink="/tasks" routerLinkActive="active">Tasks</a>
-    <a routerLink="/archive" routerLinkActive="active">Archive</a>
-  </nav>
-</header>
+<mat-toolbar>
+    <h1>Backend-Based Task Manager</h1>
+    <div class="spacer"></div>
+    <mat-chip-list>
+        <a mat-chip routerLink="/tasks" routerLinkActive="active" #rlat="routerLinkActive" [class.selected]="rlat.isActive">Tasks</a>
+        <a mat-chip routerLink="/archive" routerLinkActive="active" #rlaa="routerLinkActive" [class.selected]="rlaa.isActive">Archive</a>
+    </mat-chip-list>
+</mat-toolbar>
 
 <div class="router-outlet">
-  <router-outlet></router-outlet>
+    <router-outlet></router-outlet>
 </div>
+
 <footer>Oskar Jaworski</footer>

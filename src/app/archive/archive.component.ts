@@ -11,7 +11,7 @@ export class ArchiveComponent implements OnInit {
   public tasks: Task[] = [];
 
   constructor(
-    private tasksService: TasksService
+      private tasksService: TasksService
   ) {
   }
 
